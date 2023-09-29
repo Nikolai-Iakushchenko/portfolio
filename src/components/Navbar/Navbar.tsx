@@ -18,12 +18,12 @@ const Navbar = () => {
         <li className={classes.navListItem}>
           <Link href="/portfolio">Portfolio</Link>
         </li>
-        <li className={classes.navListItem}>
-          <Link href="/blog">Blog</Link>
-        </li>
-        <li className={classes.navListItem}>
-          <Link href="/resume">Resume</Link>
-        </li>
+        {/*<li className={classes.navListItem}>*/}
+        {/*  <Link href="/blog">Blog</Link>*/}
+        {/*</li>*/}
+        {/*<li className={classes.navListItem}>*/}
+        {/*  <Link href="/resume">Resume</Link>*/}
+        {/*</li>*/}
       </ul>
     </div>
   );

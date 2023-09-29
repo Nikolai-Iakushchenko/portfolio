@@ -1,0 +1,57 @@
+.homeContainer {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+
+.homeContainer .profileImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.homeContainer .homeText {
+  text-align: center;
+  margin: 1rem 0;
+  width: 80%;
+}
+
+@media screen and (max-width: 900px) {
+  .homeContainer .homeText {
+    width: 100%;
+  }
+}
+
+.homeContainer .homeText h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.homeContainer .homeText p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.homeContainer .socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+}
+
+.homeContainer .socialIcons a {
+  color: #9B9C9D;
+  font-size: 1.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.homeContainer .socialIcons a:hover {
+  color: #DADADB;
+}
