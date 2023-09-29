@@ -15,7 +15,7 @@ body {
   padding: 0 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   body {
     width: 100%;
     padding: 0 2rem;
@@ -31,35 +31,6 @@ li {
   list-style: none;
 }
 
-/* Navbar */
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0;
-  background-color: #1D1E20;
-}
-
-.nav-container .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.cta-btn {
-  background-color: #FFCC1A;
-  color: #1D1E20;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  font-size: 1rem;
-  font-weight: 600;
-  transition: all 0.5s ease-in-out;
-  cursor: pointer;
-  display: inline-block;
-}
-
-.cta-btn:hover {
-  background-color: #DADADB;
-}
 
 /* Footer */
 hr {
@@ -70,7 +41,7 @@ hr {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   hr {
     width: 100%;
   }
@@ -131,7 +102,7 @@ hr {
   width: 80%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .hero-container .hero-text {
     width: 100%;
   }
@@ -214,7 +185,7 @@ hr {
   transform: scale(1.02);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .about-container .flex-about {
     flex-direction: column;
   }
@@ -245,7 +216,7 @@ hr {
   gap: 2rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .skills-container .grid-skills {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -310,7 +281,7 @@ hr {
   gap: 2rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .projects-grid {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -371,7 +342,7 @@ hr {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .contact-container {
     width: 100%;
   }
