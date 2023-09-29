@@ -1,0 +1,22 @@
+/* Projects */
+.projectsContainer {
+  padding: 2rem 0;
+}
+
+.projectsContainer h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .projectsGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
