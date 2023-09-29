@@ -6,9 +6,12 @@ const Navbar = () => {
   return (
     <div className={classes.navContainer}>
       <div className={classes.logo}>
-        <Link href="/">Nik&apos;s Portfolio</Link>
+        <Link href="/">Nik</Link>
       </div>
       <ul className={classes.navList}>
+        <li className={classes.navListItem}>
+          <Link href="/">Home</Link>
+        </li>
         <li className={classes.navListItem}>
           <Link href="/about">About</Link>
         </li>
