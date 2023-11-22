@@ -7,21 +7,19 @@ const Footer = () => {
         <p>© {new Date().getFullYear()} Nik&apos;s Portfolio</p>
         <div className="social_icons">
           <a
-            href="#"
+            href="https://github.com/"
             aria-label="GitHub"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {/*<i className="fa-brands fa-github"></i>*/}
             GitHub
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/"
             aria-label="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
           >
-            {/*<i className="fa-brands fa-linkedin"></i>*/}
             LinkedIn
           </a>
         </div>
