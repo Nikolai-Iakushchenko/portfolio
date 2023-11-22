@@ -1,5 +1,7 @@
 .aboutContainer {
   padding: 2rem 0;
+  width: 50%;
+margin: 0 auto;
 }
 
 .aboutContainer h2 {
@@ -16,7 +18,7 @@
 }
 
 .aboutContainer .flexAbout .aboutText {
-  width: 50%;
+  /*width: 50%;*/
 }
 
 .aboutContainer .flexAbout .aboutText p {

@@ -17,6 +17,8 @@ body {
 
 main {
   height: 79vh;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 900px) {
