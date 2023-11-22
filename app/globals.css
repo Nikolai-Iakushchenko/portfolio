@@ -15,6 +15,10 @@ body {
   padding: 0 0;
 }
 
+main {
+  height: 79vh;
+}
+
 @media screen and (max-width: 900px) {
   body {
     width: 100%;

@@ -21,9 +21,6 @@ const Navbar = () => {
         <li className={classes.navListItem}>
           <Link href="/contact-me">Contact Me</Link>
         </li>
-        {/*<li className={classes.navListItem}>*/}
-        {/*  <Link href="/contact-me">Resume</Link>*/}
-        {/*</li>*/}
       </ul>
     </div>
   );
