@@ -13,7 +13,7 @@ export const projectsData: ProjectData[] = [
     description:
       "React, Redux, Typescript, CSS Modules",
     gitHubLink: "https://github.com/nick722/clothing-store",
-    imgLink: "@/public/images/clothing-store-screenshot.avif"
+    imgLink: "/images/clothing-store-screenshot.avif"
   },
   {
     id: 2,
