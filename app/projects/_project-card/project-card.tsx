@@ -10,10 +10,10 @@ interface ProjectCardProps {
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <div className={classes.projectCard}>
-      {project.imgLink && <a href={project.hostingLink}><Image src={project.imgLink} alt={project.title} width={240} height={150}/></a>}
+      {project.imgLink && <a target="_blank" href={project.hostingLink}><Image src={project.imgLink} alt={project.title} width={240} height={150}/></a>}
       <h3>{project.title}</h3>
       <p>{project.description}</p>
-      <p className={classes.githublink}> <a href={project.gitHubLink}>
+      <p className={classes.githublink}> <a target="_blank" href={project.gitHubLink}>
                {project.gitHubLink}
       </a></p>
     </div>

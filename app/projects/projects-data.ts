@@ -14,7 +14,7 @@ export const projectsData: ProjectData[] = [
     description:
       "React, Redux, Typescript, CSS Modules",
     gitHubLink: "https://github.com/nick722/clothing-store",
-    hostingLink: "niks-clothing-store.netlify.app",
+    hostingLink: "https://niks-clothing-store.netlify.app",
     imgLink: "/images/clothing-store-screenshot.avif"
   },
   {
