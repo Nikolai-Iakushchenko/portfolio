@@ -26,11 +26,11 @@ export const projectsData: ProjectData[] = [
   },
   {
     id: 3,
-    title: "Quotes Generator",
-    description: "Coming soon",
-    gitHubLink: "",
-    hostingLink: "",
-    imgPath: "",
+    title: "Employee List",
+    description: "Vue.js, Typescript",
+    gitHubLink: "https://github.com/nick722/employee-list",
+    hostingLink: "https://niks-employee-list.netlify.app",
+    imgPath: "/images/employee-list-screenshot.avif",
   },
   {
     id: 4,
@@ -43,6 +43,14 @@ export const projectsData: ProjectData[] = [
   {
     id: 5,
     title: "Twitter UI Clone",
+    description: "Coming soon",
+    gitHubLink: "",
+    hostingLink: "",
+    imgPath: "",
+  },
+  {
+    id: 6,
+    title: "Quotes Generator",
     description: "Coming soon",
     gitHubLink: "",
     hostingLink: "",
