@@ -18,6 +18,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
               alt={project.title}
               width={240}
               height={150}
+              unoptimized = {true}
             />
           </div>
         )}
