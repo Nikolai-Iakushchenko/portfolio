@@ -19,6 +19,7 @@ main {
   height: 79vh;
   display: flex;
   align-items: center;
+  margin-block: 2rem;
 }
 
 @media screen and (max-width: 900px) {

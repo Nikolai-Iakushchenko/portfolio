@@ -26,19 +26,19 @@ export const projectsData: ProjectData[] = [
   },
   {
     id: 3,
+    title: "Vue Online Store",
+    description: "Vue.js, Pinia, Typescript, REST API",
+    gitHubLink: "https://github.com/Nikolai-Iakushchenko/vue-store",
+    hostingLink: "https://niks-vue-store.netlify.app/",
+    imgPath: "/images/vue-online-store.avif",
+  },
+  {
+    id: 4,
     title: "Employee List",
     description: "Vue.js, Typescript",
     gitHubLink: "https://github.com/Nikolai-Iakushchenko/employee-list",
     hostingLink: "https://niks-employee-list.netlify.app",
     imgPath: "/images/employee-list-screenshot.avif",
-  },
-  {
-    id: 4,
-    title: "Password Generator",
-    description: "Coming soon",
-    gitHubLink: "",
-    hostingLink: "",
-    imgPath: "",
   },
   {
     id: 5,
